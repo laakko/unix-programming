@@ -10,7 +10,7 @@
 
 
 ### Project2:
-- Transfers data through FIFO pipe and copies it into a newfile
+- Transfers data through FIFO pipe and copies it to a new file
 - Unix programming concepts used:
     - Thread creation
     - Thread synchronization using mutex
