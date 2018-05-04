@@ -1,0 +1,38 @@
+Two programs are included: 
+Fifoserver is a daemon program, which means that you can close terminal after launching it
+and it'll continue working in background. 
+Fifoclient allows you to transfer data to fifoserver which then copies files into new files. 
+
+
+
+Installation
+
+Build both programs:
+make
+
+cleans both output files:	
+make clean
+
+deletes all files of both programs (!) :		
+make uninstall	
+
+
+
+Usage
+
+Launch daemon:
+./fifoserver
+
+Find daemon's pid:
+find fileserver
+
+Kill daemon:
+kill (pid)
+
+To transfer files:
+./fifoclient FILENAME1 
+
+
+
+
+

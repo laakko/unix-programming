@@ -1,0 +1,11 @@
+This program cleans comments and empty lines from given files.
+
+Instructions (type these commands in terminal):
+
+To build: make
+To run without parameters: make run
+To run with parameters: ./cleaning filename1 filename2 filename3 ...
+To clean .o file: make clean
+To uninstall (Warning! This deletes all the files of this progras): make uninstall
+
+File will be write locked during cleaning process and the program will also write a log file of what it does.
